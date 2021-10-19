@@ -6,8 +6,8 @@ export default {
   },
   plugins: [
     '@snowpack/plugin-dotenv',
-    "@snowpack/plugin-babel",
     "@vanilla-extract/snowpack-plugin",
+    "@snowpack/plugin-babel",
     [
       '@snowpack/plugin-typescript',
       {
