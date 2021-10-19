@@ -1,3 +1,47 @@
+# my-solid-js-app
+
+> Snowpack starter project with [solid.js](https://www.solidjs.com) & [vanilla-extract](https://vanilla-extract.style)
+
+## Getting Started 
+
+1. Clone this repository with [degit](https://github.com/Rich-Harris/degit) into a new folder
+```bash
+> npx degit dyoung2019/my-solid-js-app my-new-project
+```
+
+2. Install all the project dependencies (i.e. snowpack, solid.js and vanilla-extract)  in the sample project
+```bash
+> cd my-new-project
+> npm install
+```
+
+3. To run developement mode (e.g. snowpack dev)
+
+```bash
+> npm start
+```
+
+4. To run production mode (i.e. snowpack build)
+```bash
+> npm run build
+```
+
+### Modules used
+
+- [snowpack](https://www.snowpack.dev)
+  - JS frontend build tool
+- [solid.js](https://www.solidjs.com)
+  - ***A declarative, efficient and flexible JavaScript library for building user interfaces.***
+  - Reactive JS UI framework using JSX with Typescript
+- [vanilla-extract](https://vanilla-extract.style)
+  - ***Zero-runtime Stylesheets in TypeScript.***
+  - CSS-in-TS transpiler
+
+### Credits 
+
+- [Solid snowpack starter (+ tailwind 2)](https://github.com/amoutonbrady/snowpack-solid) by [amoutonbrady](https://github.com/amoutonbrady)
+- [Solid templates using vite](https://github.com/solidjs/templates)
+
 ## Usage
 
 Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
